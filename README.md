@@ -1,5 +1,6 @@
 ---
 icon: hand-wave
+description: Learn about ts-graphviz, a TypeScript library for Graphviz.
 cover: https://gitbookio.github.io/onboarding-template-images/header.png
 coverY: 0
 layout:
@@ -9,21 +10,40 @@ layout:
   title:
     visible: true
   description:
-    visible: false
+    visible: true
   tableOfContents:
-    visible: true
+    visible: false
   outline:
-    visible: true
+    visible: false
   pagination:
     visible: true
 ---
 
 # Welcome
 
-Welcome to the GitBook Starter Template! Here you'll get an overview of all the amazing features GitBook offers to help you build beautiful, interactive documentation.
+### What is Graphviz?
 
-You'll see some of the best parts of GitBook in action — and find help on how you can turn this template into your own.
+[Graphviz](https://graphviz.org/) is an open-source graph visualization software that allows you to represent structural information as diagrams of abstract graphs and networks. It uses DOT to describe the nodes, edges, and their relationships, which can then be rendered into various graphical formats like PNG, SVG, PDF, etc. Graphviz is widely used in academia and industry for visualizing complex structures such as hierarchies, data flows, and state machines.
 
-### Jump right in
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Create your first site</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr><tr><td><strong>Basics</strong></td><td>Learn the basics of GitBook</td><td></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Publish your docs</strong></td><td>Share your docs online</td><td></td><td></td><td><a href="getting-started/publish-your-docs.md">publish-your-docs.md</a></td></tr></tbody></table>
+
+![Graphviz logo](https://graphviz.org/Resources/app.png)
+
+
+
+### What is ts-graphviz?
+
+**ts-graphviz** is a graphviz library for TypeScript, allowing you to directly utilize the powerful features of [Graphviz](https://graphviz.gitlab.io/) within the TypeScript/JavaScript ecosystem. It fully integrates Graphviz's DOT language with TypeScript, enabling programmatic generation and manipulation of graphs. This makes it easy to visualize complex graphs and network structures based on dynamic data.
+
+
+
+<figure><img src="https://github.com/ts-graphviz.png" alt=""><figcaption><p>ts-graphviz logo</p></figcaption></figure>
+
+#### Key Features of ts-graphviz
+
+* **TypeScript Integration**: Provides strong typing and seamless integration with TypeScript projects, enhancing development efficiency and type safety.
+* **Object-Oriented API**: Offers an intuitive object-oriented API for creating and manipulating graphs, nodes, and edges.
+* **Declarative and Imperative Styles**: Supports both declarative and imperative programming styles, giving you flexibility in how you construct your graphs.
+* **Extensibility**: Allows for customization and extension of the library's type system to meet specific needs.
+* **Cross-Platform Support**: Works in Node.js, Deno, and browser environments, making it versatile for different projects.
+* **AST Manipulation**: Includes support for manipulating the DOT language at the Abstract Syntax Tree (AST) level for advanced use cases.

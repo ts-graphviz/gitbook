@@ -2,10 +2,20 @@
 icon: globe-pointer
 ---
 
-# Publish your docs
+# Installation
 
-Once you’ve finished writing, editing, or importing your content, you can publish your work to the web as a docs site. Once published, your site will be accessible online only to your selected audience.
+## Node.js
 
-You can publish your site and find related settings from your docs site's homepage.
+This package can then be installed using a package manager.
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/publish-hero.png" alt=""><figcaption></figcaption></figure>
+```bash
+npm install ts-graphviz
+```
+
+## Deno
+
+You can install and use the package by specifying the following:
+
+```ts
+import { toDot } from 'npm:ts-graphviz';
+```
